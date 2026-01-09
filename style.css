@@ -14,6 +14,17 @@
   align-items: center;
 }
 
+.button{
+  display: flex;
+}
+
+.button button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
 #logo {
   width: 139px;
   padding: 16px 0;
@@ -278,4 +289,12 @@
 }
 #copy-right-text p{
    color: #FAFAFA;
+}
+#early-access button{
+   padding-bottom: 3px;
+   text-align: center;  
+}
+
+.btn:hover {
+    background-color: black;
 }
